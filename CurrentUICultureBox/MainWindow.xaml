@@ -6,7 +6,7 @@
         xmlns:globalization="clr-namespace:System.Globalization;assembly=mscorlib"
         xmlns:threading="clr-namespace:System.Threading;assembly=mscorlib"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow">
     <StackPanel>
         <TextBlock Text="{Binding Name, Source={x:Static globalization:CultureInfo.CurrentUICulture}, StringFormat='CurrentUICulture: {0}'}" />
         <TextBlock Text="{Binding Name, Source={x:Static globalization:CultureInfo.CurrentCulture}, StringFormat='CurrentCulture: {0}'}" />
